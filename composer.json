@@ -5,6 +5,12 @@
 	"authors": [
         {
             "name": "BinaryStash"
+        },
+        "autoload": {
+            "psr-0": {
+                "PDFWatermark\\": "pdfwatermarker/",
+                "PDFWatermarker\\": "pdfwatermarker/"
+            }
         }
     ],
 	"require": {
